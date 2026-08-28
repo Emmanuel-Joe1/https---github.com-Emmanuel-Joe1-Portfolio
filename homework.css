@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 109vh;
+    width: 100%;
+    background-color: hsl(254, 100%, 6%);
+    background-position: center;
+    background-size: cover;
+}
+
+p{
+    color: white;
+    font-family: Arial;
+}
+
+h3{
+    color: white;
+    font-family: Arial;
+}
+
+h1{
+    font-family: Arial;
+    color: white;
+}
+
+.cardpack{
+    background-color: #1f2535;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    margin: 10%;
+    /* row-gap: 3px;
+    columns: 3;
+    grid-row: ; */
+}

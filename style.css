@@ -1,0 +1,85 @@
+:root {
+      --clr-green: hsl(75, 94%, 57%);
+      --clr-white: hsl(0, 0%, 100%);
+      --clr-grey-700: hsl(0, 0%, 20%);
+      --clr-grey-800: hsl(0, 0%, 12%);
+      --clr-grey-900: hsl(0, 0%, 8%);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--clr-grey-900);
+      color: var(--clr-white);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 24px;
+    }
+
+    .profile-card {
+      background-color: var(--clr-grey-800);
+      padding: 40px;
+      border-radius: 12px;
+      width: 100%;
+      max-width: 380px;
+      text-align: center;
+    }
+
+    .profile-img {
+      width: 88px;
+      height: 88px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 24px;
+    }
+
+    .profile-name {
+      font-size: 24px;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+
+    .profile-location {
+      color: var(--clr-green);
+      font-size: 14px;
+      font-weight: 700;
+      margin-bottom: 24px;
+    }
+
+    .profile-bio {
+      color: var(--clr-white);
+      opacity: 0.8;
+      font-size: 14px;
+      margin-bottom: 24px;
+    }
+
+    .links-container {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .social-link {
+      background-color: var(--clr-grey-700);
+      color: var(--clr-white);
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 700;
+      padding: 14px;
+      border-radius: 8px;
+      transition: background-color 0.2s ease, color 0.2s ease;
+    }
+
+    .social-link:hover, 
+    .social-link:focus {
+      background-color: var(--clr-green);
+      color: var(--clr-grey-900);
+      outline: none;
+    }
